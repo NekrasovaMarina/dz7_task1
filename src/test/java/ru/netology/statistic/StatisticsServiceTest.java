@@ -18,6 +18,7 @@ class StatisticsServiceTest {
     assertEquals(expected, actual);
   }
 
+  // второй тест
   @Test
   void shouldMax() {
     StatisticsService service = new StatisticsService();
